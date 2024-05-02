@@ -1,3 +1,4 @@
+HOW TO:
 1. AVLNode Class: Defines a class representing a node in an AVL tree. Each node has a key value, left and right children, and a height attribute initialized to 1.
 
 2. AVLTree Class: Defines a class representing the AVL tree itself. It includes various methods for insertion, deletion, searching, and traversal of the tree.
@@ -17,3 +18,7 @@
 9. Key Insertion and Deletion: The insert_key and delete_key methods are provided for inserting and deleting keys in the AVL tree. They call the respective insertion and deletion methods while updating the root of the tree.
 
 10. Search and Traversal: The search_key method searches for a key in the AVL tree, and the print_tree method performs an in-order traversal of the tree to print its keys in sorted order.
+
+CHALLENGES:
+
+The main challenge with this project was refreshing my Python syntax knowledge and getting my brain to switch from using primarily C++ back to using Python. I ended up digging around on the web, mainly Geeks for Geeks, looking for information/examples on how to implement the main functions of an AVL tree and in doing so I remembered that we had similar functions in our Binary Search tree homework. With some adjustments to include additional functionality (self balancing), I adapted the functions for use with the AVL tree. The logic behind the balancing of the subtrees took me a bit to wrap my head around. I understood the concept/principle of balancing the tree to keep branches within 1 height difference and how doing so helps keep the functionality running efficiently, but to really grasp how the tree was changing in each step of the code, I had to draw out what was happening to the branches step by step. 
