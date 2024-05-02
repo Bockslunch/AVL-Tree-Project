@@ -1,4 +1,9 @@
 HOW TO:
+
+Using the main.py file, one can test the functionality in the avl.py file (where all the function definitions are located). The main.py file has some examples of initialization of the AVL tree itself, insertion, printing, searching, and deleting.
+
+FUNCTIONS:
+
 1. AVLNode Class: Defines a class representing a node in an AVL tree. Each node has a key value, left and right children, and a height attribute initialized to 1.
 
 2. AVLTree Class: Defines a class representing the AVL tree itself. It includes various methods for insertion, deletion, searching, and traversal of the tree.
